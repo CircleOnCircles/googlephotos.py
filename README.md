@@ -2,12 +2,13 @@
 an unofficial pythonic API to google photos services
 
 # Quickstart
-```bash
+```
 pipenv install googlephotos.py
 ```
 
-```python
+```
 import googlephotos
+from pathlib import Path
 
 with googlephotos.authenticate(by='browser') as gphotos:
 	# upload a media item
